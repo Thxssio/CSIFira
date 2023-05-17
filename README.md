@@ -20,3 +20,21 @@ gst-launch-1.0 nvarguscamerasrc sensor_id=0 !
    nvvidconv ! nvegltransform ! nveglglessink -e
    
 ```
+* Python Teste
+
+```
+sudo apt install python3-numpy
+```
+
+```
+sudo apt install libcanberra-gtk-module
+```
+
+```
+python3 face_detect.py
+```
+<!--
+```
+
+```
+-->
